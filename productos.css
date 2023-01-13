@@ -50,6 +50,8 @@ nav a:hover{
     margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
     
 }
 
@@ -58,12 +60,14 @@ nav a:hover{
     font-size: 33px;
 }
 
-.productos li:active{
+.productos li:hover{
     border-color: aqua;
 
 }
-.productos li :hover h2{
-    
+.productos li :active h2{
+    border-color:#088c19;
+
+
 }
 
 .productos h2{
@@ -77,4 +81,15 @@ nav a:hover{
     font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background:url(imagenes/bg.jpg);
+    padding: 40px;
+}
+
+.copyright{
+    color: #ffffff;
+    font-size: 13px;
 }
