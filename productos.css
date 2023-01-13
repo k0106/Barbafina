@@ -2,6 +2,18 @@ header {
     background: #BBBBBB;
 }
 
+.caja{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position:absolute;
+    right: 110;
+    top: 0;
+}
+
 
 nav li {
     display: inline;
