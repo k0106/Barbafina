@@ -22,15 +22,32 @@
         </header>
         <main>
             <form>
-                <label for="nombreapellido">Nombre y Apellido</label>
-                <input type="text" id="nombreapellido">
+                <div>
+                    <p>¿Como le gustaria que lo contactemos?</p>
 
-                <label for="correoelectronico">Correo Electronico</label>
-                <input type="text" id="correoelectronico">
-                
-                <label for="telefono">Teléfono</label>
-                <input type="text" name="telefono" id="telefono">
-            </form>
+                    <label for="nombreapellido">Nombre y Apellido </label>
+                    <input type="text" id="nombreapellido"class="input-padrom">
+    
+                    <label for="correoelectronico">Correo Electronico</label>
+                    <input type="text" id="correoelectronico"class="input-padrom">
+    
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" name="telefono" id="telefono"class="input-padrom">
+    
+                    <label for="mensaje">Mensaje</label>
+                    <textarea cols="70"rows="10" id="mensaje"></textarea>
+                    
+                    <label for="radio-email" > <input type="radio" name= "contacto" value="email" id="radio-email">Email</label>                   
+    
+                    <label for="radio-telefono"><input type="radio" name= "contacto" value="telefono" id="radio-telefono"> Teléfono</label>
+    
+                    <label for="radio-whatsapp"> <input type="radio" name= "contacto" value="whatsapp" id="radio-whatsapp">Whatsapp</label>
+    
+    
+                </div>
+                    <label><input type="checkbox" <input  type="submit" value="Enviar Formulario">
+                       ¿Le gustaria recibir novedades de la Barbería Alura?</label>                  
+            </form>               
         </main>
         
         <footer>
