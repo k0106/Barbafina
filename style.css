@@ -101,15 +101,21 @@ form {
     margin: 40px 0;
 }
 
-form label{
+/*agregamos form p para que los estilos sean aplicados a ese pequeño parrafo */
+
+form label,form p{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
 }
-*/modifica el area  y estilo de mensaje,de la misma forma que los anteriores input*/
-form input,form textarea{  
+/*modifica el area  y estilo de mensaje,de la misma forma que los anteriores input,este es un selector de clase*/
+.input-padrom{  
     display: block;
     margin: 0 0 20px;
     padding: 10px 25px;
     width: 50%;
+}
+
+.checkbox{
+    margin: 20px 0;
 }
