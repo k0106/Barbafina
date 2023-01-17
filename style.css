@@ -103,7 +103,7 @@ form {
 
 /*agregamos form p para que los estilos sean aplicados a ese pequeño parrafo */
 
-form label,form p{
+form label,form legend{
     display: block;
     font-size: 20px;
     margin: 0 0 10px;
@@ -118,4 +118,41 @@ form label,form p{
 
 .checkbox{
     margin: 20px 0;
+}
+
+.enviar{
+    width:40%;/*tamaño que ocupara el boton en pantalla*/
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background: orange;
+    border: none;
+    border-radius: 5px;/*borde redondeado*/
+    transition: 1s background;/*transicion de colores*/
+    cursor: pointer;/*coloca la mano-mouse*/
+}
+
+/*cambios que tendra el boton enviar al tocarlo*/
+.enviar:hover{
+    background: darkorange;/*color*/
+    transform: scale(1.2);/*aumenta el tamaño del boton ennn general al colocar el mouse*/
+
+}
+
+
+
+table {
+    margin: 40px 40px;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
 }
